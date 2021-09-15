@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>jpg2svg</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+
+  <body>
+    <div id="main">
+        <div>
+          <div class="intro">
+          <h1> jpg2svg </h1>
+          <p> Convert JPG/JPEG images to colored SVG.
+            This is similar to Inkscape's Trace Bitmap function, but with the
+            added feature of automatically tracing the image into multiple layers and
+            applying color to each layer. </p>
+            
+            <p>Try it out below. If you don't anything after clicking the
+            convert button, then pick another image with more contrast. 
+            The closer a color is to white, the less likely will be picked up. </p>
+            </div>
+          <div class="convert-container">
+            <div class="img-container">
+             <div class="upload-details" style="text-align: center">
+               <img src="/images/upload.png" width="80px" style="opacity: 0.5"/>
+               <p style="margin-top: 0; color: #555"> Try it out </p>
+             </div>
+              <label for="imageUpload" id="imageLoaderLabel"> Choose image (JPG/JPEG)</label>
+              <input type="file" id="imageUpload" name="fileUpload" />
+              <div id="canvas-box">
+              </div>
+              <div class="buttons">
+              </div>
+              </div>
+              <div class="character">
+                <div id="svg-box">
+                </div>
+                <a href="" id="download-text"></a>
+              </div>
+            </div>
+            <div class="examples">
+            <h3 style="text-align:center"> Some examples (JPG and converted SVG side by side)</h3>
+            <div class="images">
+            <div class="image">
+              <img src="/images/examples/facebook.jpg" alt="" />
+              <img src="/images/examples/facebook.svg" alt="" />
+             </div>
+            <div class="image">
+              <img src="/images/examples/amongus.jpg" alt="" />
+              <img src="/images/examples/amongus.svg" alt="" />
+             </div>
+             <div class="image">
+              <img src="/images/examples/car.jpeg" alt="" />
+              <img src="/images/examples/car.svg" alt="" />
+             </div>
+             <div class="image">
+              <img src="/images/examples/chip.jpg" alt="" />
+              <img src="/images/examples/chip.svg" alt="" />
+             </div>
+             <div class="image">
+              <img src="/images/examples/drawing.jpg" alt="" />
+              <img src="/images/examples/drawing.svg" alt="" />
+             </div>
+             <div class="image">
+              <img src="/images/examples/house.jpg" alt="" />
+              <img src="/images/examples/house.svg" alt="" />
+             </div>
+             <div class="image">
+              <img src="/images/examples/icecream.jpg" alt="" />
+              <img src="/images/examples/icecream.svg" alt="" />
+             </div>
+             <div class="image">
+              <img src="/images/examples/pickachu.jpg" alt="" />
+              <img src="/images/examples/pickachu.svg" alt="" />
+             </div>
+             <div class="image">
+              <img src="/images/examples/plane.jpg" alt="" />
+              <img src="/images/examples/plane.svg" alt="" />
+             </div>
+             <div class="image">
+              <img src="/images/examples/zebra.jpg" alt="" />
+              <img src="/images/examples/zebra.svg" alt="" />
+             </div>
+            </div>
+            </div>
+            
+          </div>
+        </div>
+
+      <script src="script.js">
+      </script>
+  </body>
+
+</html>
