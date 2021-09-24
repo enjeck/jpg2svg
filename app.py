@@ -29,4 +29,4 @@ def downloadSVG():
   return send_file('image.svg', mimetype='image/svg+xml')
 
 # run app  
-app.run(debug=True)
+# app.run(debug=True)
