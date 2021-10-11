@@ -1,6 +1,6 @@
 # jpg2svg
 
-An attempt at converting colored JPG images to colored SVG. It automatically traces the image in layers and automatically applies dominant colors selected from the image to each layers. 
+An attempt at converting colored JPG images to colored SVG. It automatically traces the image in layers and applies dominant colors selected from the image to each layer. 
 
 <h3 style="text-align:center"> Some results (JPG and converted SVG side by side)</h3>
 Images with higher contrast, and with white backgrounds produce better results:
